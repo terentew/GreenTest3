@@ -15,7 +15,7 @@ public class GeneratedTests extends TestBase {
     @Test
     @Description("Simple test for GreenAtom website")
     @DisplayName("GreenAtom main webpage search test")
-     void generatedTest() {
+    void generatedTest() {
         step("Open https://greenatom.ru/", () -> {
             open("https://greenatom.ru/");
             step("// todo: selenium action: find element and fill");
@@ -33,7 +33,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Page title should have header text")
     void titleTest() {
         step("Open url 'https://greenatom.ru/'", () ->
-            open("https://greenatom.ru/"));
+                open("https://greenatom.ru/"));
 
         step("Page title should have text 'Гринатом'", () -> {
             String expectedTitle = "Гринатом";
@@ -48,7 +48,7 @@ public class GeneratedTests extends TestBase {
     @DisplayName("Page console log should not have errors")
     void consoleShouldNotHaveErrorsTest() {
         step("Open url 'https://greenatom.ru/'", () ->
-            open("https://greenatom.ru/"));
+                open("https://greenatom.ru/"));
 
         step("Console logs should not contain text 'SEVERE'", () -> {
             String consoleLogs = DriverUtils.getConsoleLogs();
