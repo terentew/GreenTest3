@@ -1,9 +1,8 @@
 # Project in Allure TestOps with manual & automated tests
-<a target="_blank" href="https://allure.autotests.cloud/project/%s">allure.autotests.cloud/project/%s</a> (ask admin@qa.guru for access)
+<a target="_blank" href="https://jenkins.autotests.cloud/job/09-terentew-GreenTest1/allure/#">(https://jenkins.autotests.cloud/job/09-terentew-GreenTest1/allure/)</a> 
 
 # Jenkins job
-<a target="_blank" href="https://jenkins.autotests.cloud/job/%s">jenkins.autotests.cloud/job/%s</a>
-
+<a target="_blank" href="https://jenkins.autotests.cloud/job/09-terentew-GreenTest1">https://jenkins.autotests.cloud/job/09-terentew-GreenTest1</a>
 
 # USAGE examples
 
